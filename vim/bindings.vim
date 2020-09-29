@@ -7,12 +7,11 @@ nnoremap tl :tabnext<CR>
 nnoremap th :tabprevious<CR>
 
 " CTRL+{key}
-nnoremap <C-n> :CtrlSpaceGoDown<CR>
-nnoremap <C-p> :CtrlSpaceGoUp<CR>
-nnoremap <C-f> :ALEFix<CR>
-nnoremap <leader>dd :ALEDetail<CR>
-nnoremap <C-k> ddkP
-nnoremap <C-j> ddjP
+noremap <C-n> <ESC>:CtrlSpaceGoDown<CR>
+noremap <C-p> <ESC>:CtrlSpaceGoUp<CR>
+noremap <C-f> <ESC>:ALEFix<CR>
+noremap <C-k> <ESC>ddkP
+noremap <C-j> <ESC>ddjP
 
 " TAB+{key}
 nnoremap <SPACE>o :CtrlSpace<CR>
@@ -29,6 +28,11 @@ nnoremap <leader>gd :Gvdiffsplit<CR>
 nnoremap <leader>ee :checktime<CR>
 nnoremap <leader>ff :Files<CR>
 nnoremap <leader>rr :source ~/.vimrc<CR>
+nnoremap <leader>tt :tabe!<CR>:Files<CR>
+nnoremap <leader>df :ALEDetail<CR>
+nnoremap <leader>aa :ALEToggle<CR>
+nnoremap <leader>al :ALELint<CR>
+
 
 nnoremap <SPACE>/ :BLines<CR>
 nnoremap <SPACE>? :Lines<CR>

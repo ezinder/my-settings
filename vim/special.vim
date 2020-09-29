@@ -1,9 +1,9 @@
 " ALE Runtime
-  let g:ale_fixers = {
-  \   'javascript': [
-  \       'eslint'
-  \   ],
-  \}
+let g:ale_fixers = {
+\   'javascript': [
+\       'eslint'
+\   ],
+\}
 
 
 " FZF line completion

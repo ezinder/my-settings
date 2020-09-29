@@ -3,7 +3,7 @@ call plug#begin('~/.vim/plugged')
 
 	" utilities:
 	Plug 'vim-ctrlspace/vim-ctrlspace'
-	Plug 'dense-analysis/ale'
+	Plug 'dense-analysis/ale', { 'on':  'ALEToggle' }
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	Plug 'tpope/vim-fugitive'
 	Plug 'scrooloose/nerdtree'
